@@ -1,0 +1,47 @@
+[04-Jun-2024 19:45:17 UTC] PHP Warning:  require_once(/home/u584875988/domains/italentmind.com/public_html/wp-admin/includes/plugin.php): Failed to open stream: No such file or directory in /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/add-search-to-menu/includes/freemius/start.php on line 220
+[04-Jun-2024 19:45:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u584875988/domains/italentmind.com/public_html/wp-admin/includes/plugin.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/add-search-to-menu/includes/freemius/start.php:220
+Stack trace:
+#0 /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/add-search-to-menu/includes/freemius.php(23): require_once()
+#1 /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/add-search-to-menu/includes/freemius.php(48): is_fs()
+#2 /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/add-search-to-menu/add-search-to-menu.php(195): require_once('/home/u58487598...')
+#3 /home/u584875988/domains/italentmind.com/public_html/wp-settings.php(517): include_once('/home/u58487598...')
+#4 /home/u584875988/domains/italentmind.com/public_html/wp-config.php(108): require_once('/home/u58487598...')
+#5 /home/u584875988/domains/italentmind.com/public_html/wp-load.php(50): require_once('/home/u58487598...')
+#6 /home/u584875988/domains/italentmind.com/public_html/wp-blog-header.php(13): require_once('/home/u58487598...')
+#7 /home/u584875988/domains/italentmind.com/public_html/index.php(17): require('/home/u58487598...')
+#8 {main}
+  thrown in /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/add-search-to-menu/includes/freemius/start.php on line 220
+[04-Jun-2024 19:45:17 UTC] PHP Notice:  La función is_embed ha sido llamada de forma incorrecta. Las etiquetas de las consultas condicionales no funcionan antes de ejecutar la consulta. Haciéndolo antes, siempre devuelven falso. Por favor, ve <a>depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 3.1.0). in /home/u584875988/domains/italentmind.com/public_html/wp-includes/functions.php on line 6078
+[04-Jun-2024 19:45:17 UTC] PHP Notice:  La función is_search ha sido llamada de forma incorrecta. Las etiquetas de las consultas condicionales no funcionan antes de ejecutar la consulta. Haciéndolo antes, siempre devuelven falso. Por favor, ve <a>depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 3.1.0). in /home/u584875988/domains/italentmind.com/public_html/wp-includes/functions.php on line 6078
+[04-Jun-2024 19:46:51 UTC] PHP Warning:  require_once(/home/u584875988/domains/italentmind.com/public_html/wp-admin/includes/plugin.php): Failed to open stream: No such file or directory in /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/royal-elementor-addons/freemius/includes/supplements/fs-essential-functions-2.2.1.php on line 33
+[04-Jun-2024 19:46:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u584875988/domains/italentmind.com/public_html/wp-admin/includes/plugin.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/royal-elementor-addons/freemius/includes/supplements/fs-essential-functions-2.2.1.php:33
+Stack trace:
+#0 /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/royal-elementor-addons/freemius/includes/supplements/fs-essential-functions-1.1.7.1.php(29): fs_get_plugins()
+#1 /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/royal-elementor-addons/freemius/start.php(153): fs_find_direct_caller_plugin_file()
+#2 /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/royal-elementor-addons/wpr-addons.php(49): require_once('/home/u58487598...')
+#3 /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/royal-elementor-addons/wpr-addons.php(76): wpr_fs()
+#4 /home/u584875988/domains/italentmind.com/public_html/wp-settings.php(517): include_once('/home/u58487598...')
+#5 /home/u584875988/domains/italentmind.com/public_html/wp-config.php(108): require_once('/home/u58487598...')
+#6 /home/u584875988/domains/italentmind.com/public_html/wp-load.php(50): require_once('/home/u58487598...')
+#7 /home/u584875988/domains/italentmind.com/public_html/wp-blog-header.php(13): require_once('/home/u58487598...')
+#8 /home/u584875988/domains/italentmind.com/public_html/index.php(17): require('/home/u58487598...')
+#9 {main}
+  thrown in /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/royal-elementor-addons/freemius/includes/supplements/fs-essential-functions-2.2.1.php on line 33
+[04-Jun-2024 19:46:51 UTC] PHP Notice:  La función is_embed ha sido llamada de forma incorrecta. Las etiquetas de las consultas condicionales no funcionan antes de ejecutar la consulta. Haciéndolo antes, siempre devuelven falso. Por favor, ve <a>depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 3.1.0). in /home/u584875988/domains/italentmind.com/public_html/wp-includes/functions.php on line 6078
+[04-Jun-2024 19:46:51 UTC] PHP Notice:  La función is_search ha sido llamada de forma incorrecta. Las etiquetas de las consultas condicionales no funcionan antes de ejecutar la consulta. Haciéndolo antes, siempre devuelven falso. Por favor, ve <a>depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 3.1.0). in /home/u584875988/domains/italentmind.com/public_html/wp-includes/functions.php on line 6078
+[04-Jun-2024 19:47:02 UTC] PHP Warning:  require_once(/home/u584875988/domains/italentmind.com/public_html/wp-admin/includes/plugin.php): Failed to open stream: No such file or directory in /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/royal-elementor-addons/freemius/includes/supplements/fs-essential-functions-2.2.1.php on line 33
+[04-Jun-2024 19:47:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u584875988/domains/italentmind.com/public_html/wp-admin/includes/plugin.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/royal-elementor-addons/freemius/includes/supplements/fs-essential-functions-2.2.1.php:33
+Stack trace:
+#0 /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/royal-elementor-addons/freemius/includes/supplements/fs-essential-functions-1.1.7.1.php(29): fs_get_plugins()
+#1 /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/royal-elementor-addons/freemius/start.php(153): fs_find_direct_caller_plugin_file()
+#2 /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/royal-elementor-addons/wpr-addons.php(49): require_once('/home/u58487598...')
+#3 /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/royal-elementor-addons/wpr-addons.php(76): wpr_fs()
+#4 /home/u584875988/domains/italentmind.com/public_html/wp-settings.php(517): include_once('/home/u58487598...')
+#5 /home/u584875988/domains/italentmind.com/public_html/wp-config.php(108): require_once('/home/u58487598...')
+#6 /home/u584875988/domains/italentmind.com/public_html/wp-load.php(50): require_once('/home/u58487598...')
+#7 /home/u584875988/domains/italentmind.com/public_html/wp-blog-header.php(13): require_once('/home/u58487598...')
+#8 /home/u584875988/domains/italentmind.com/public_html/index.php(17): require('/home/u58487598...')
+#9 {main}
+  thrown in /home/u584875988/domains/italentmind.com/public_html/wp-content/plugins/royal-elementor-addons/freemius/includes/supplements/fs-essential-functions-2.2.1.php on line 33
+[04-Jun-2024 19:47:02 UTC] PHP Notice:  La función is_embed ha sido llamada de forma incorrecta. Las etiquetas de las consultas condicionales no funcionan antes de ejecutar la consulta. Haciéndolo antes, siempre devuelven falso. Por favor, ve <a>depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 3.1.0). in /home/u584875988/domains/italentmind.com/public_html/wp-includes/functions.php on line 6078
+[04-Jun-2024 19:47:02 UTC] PHP Notice:  La función is_search ha sido llamada de forma incorrecta. Las etiquetas de las consultas condicionales no funcionan antes de ejecutar la consulta. Haciéndolo antes, siempre devuelven falso. Por favor, ve <a>depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 3.1.0). in /home/u584875988/domains/italentmind.com/public_html/wp-includes/functions.php on line 6078
